@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 20px;
@@ -8,29 +8,42 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     background: white;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 h1 {
-    color: #2e8b57;
-    margin-top: 0;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
 }
 
-a {
-    color: #2e8b57;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
     text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
 }
 
-a:hover {
+nav ul li a:hover {
     text-decoration: underline;
 }
 
-.error {
-    color: #d9534f;
-    font-size: 0.9em;
+a{
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
 }
